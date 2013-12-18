@@ -4,15 +4,43 @@
 [core]
 	editor = vim
 	excludesfile = /Users/wrose/.gitignore_global
+	pager = less -+$LESS -FRX
 [branch]
+	autosetupmerge = true
 	autosetuprebase = always
 [merge]
-	tool = opendiff
+	tool = vimdiff
+	algorithm = patience
+[diff]
+	renames = copy
+	renamelimit = 0
+	tool = vimdiff
+	algorithm = patience
+	prompt = false
 [push]
-	default = matching
+	default = tracking
 [color]
-	ui = true
+	ui = auto
+	branch = auto
+	status = auto
+	diff = auto
+	interactive = auto
 [alias]
+	a = add
+	aa = add .
+	c = commit
+	cm = commit -m
+	mm = merge
+	mf = merge --ff-only
+	pu = pull
+	rb = rebase
+	rbi = rebase -i
+	rbc = rebase --continue
+	rba = rebase --abort
+	s = status
+	st = stash
+	stl = stash list
+	stp = stash pop
 	lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 	lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 	lg = !"git lg1"
