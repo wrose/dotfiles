@@ -2,7 +2,10 @@
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
+<<<<<<< HEAD
 export CATALINA_OPTS="-XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC -Xms512m -Xmx512m -XX:PermSize=256M -XX:MaxPermSize=256M"
+=======
+>>>>>>> initial checkin
 
 alias l='ls -lhaG'
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
@@ -15,9 +18,12 @@ alias apis-ssh='ssh -l wdrose@nitetimedinosaur.com nitetimedinosaur.com'
   if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
   fi
+<<<<<<< HEAD
 
 if [ -e /usr/share/terminfo/x/xterm-256color ]; then
         export TERM='xterm-256color'
 else
         export TERM='xterm-color'
 fi
+=======
+>>>>>>> initial checkin

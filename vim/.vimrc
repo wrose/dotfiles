@@ -3,7 +3,6 @@ set nocompatible
 
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
-"call pathogen#helptags()
 call pathogen#infect()
 
 " change the mapleader from \ to ,
@@ -16,7 +15,6 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 set hidden
 
 set clipboard=unnamed
-
 set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
 set backspace=indent,eol,start
@@ -88,4 +86,3 @@ noremap <leader>O <Esc>:CommandTFlush<CR>
 noremap <leader>m <Esc>:CommandTBuffer<CR>
 
 set tags=tags;/
-
