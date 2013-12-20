@@ -32,6 +32,7 @@
 	cm = commit -m
 	mm = merge
 	mf = merge --ff-only
+	mt = mergetool
 	pu = pull
 	rb = rebase
 	rbi = rebase -i
