@@ -15,6 +15,8 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 set hidden
 
+set clipboard=unnamed
+
 set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
 set backspace=indent,eol,start
@@ -70,6 +72,8 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+map <C-x> :!reattach-to-user-namespace pbcopy<CR>
+map <C-c> :w !reattach-to-user-namespace pbcopy<CR><CR>
 
 " clear search history
 nmap <silent> <leader>/ :nohlsearch<CR>
