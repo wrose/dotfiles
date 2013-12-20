@@ -14,3 +14,4 @@ alias apis-ssh='ssh -l wdrose@nitetimedinosaur.com nitetimedinosaur.com'
   if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
   fi
+
