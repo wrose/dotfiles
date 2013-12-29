@@ -86,3 +86,6 @@ let g:EclimCompletionMethod = 'omnifunc'
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>
 noremap <leader>m <Esc>:CommandTBuffer<CR>
+
+set tags=tags;/
+
