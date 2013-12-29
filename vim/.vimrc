@@ -3,8 +3,8 @@ set nocompatible
 
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
-call pathogen#helptags()
-call pathogen#incubate()
+"call pathogen#helptags()
+call pathogen#infect()
 
 " change the mapleader from \ to ,
 let mapleader=","
@@ -79,3 +79,10 @@ map <C-c> :w !reattach-to-user-namespace pbcopy<CR><CR>
 nmap <silent> <leader>/ :nohlsearch<CR>
 
 cmap w!! w !sudo tee % >/dev/null
+
+let g:SuperTabDefaultCompletionType = 'context'
+let g:EclimCompletionMethod = 'omnifunc'
+
+noremap <leader>o <Esc>:CommandT<CR>
+noremap <leader>O <Esc>:CommandTFlush<CR>
+noremap <leader>m <Esc>:CommandTBuffer<CR>
