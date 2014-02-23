@@ -9,12 +9,12 @@
 	autosetupmerge = true
 	autosetuprebase = always
 [merge]
-	tool = vimdiff
+	tool = opendiff
 	algorithm = patience
 [diff]
 	renames = copy
 	renamelimit = 0
-	tool = vimdiff
+	tool = opendiff
 	algorithm = patience
 	prompt = false
 [push]
@@ -48,3 +48,7 @@
 	ctags = !.git/hooks/ctags
 [init]
 	templatedir = ~/.git_template
+[mergetool "fugitive"]
+	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
+[rerere]
+	enabled = true
