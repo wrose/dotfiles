@@ -1,6 +1,6 @@
 [user]
 	name = William Rose
-	email = wrose@ondeck.com
+	email = wdrose@gmail.com
 [core]
 	editor = vim
 	excludesfile = /Users/wrose/.gitignore_global
@@ -30,7 +30,6 @@
 	aa = add .
 	c = commit
 	cm = commit -m
-	d = diff --color-words
 	mm = merge
 	mf = merge --ff-only
 	mt = mergetool
