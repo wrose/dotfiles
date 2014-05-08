@@ -2,6 +2,7 @@
 # Do NOT edit it directly, your changes will be overwritten.
 SET CATALINA_OPTS:\x2dXX\x3a\x2bCMSClassUnloadingEnabled\x1e\x2dXX\x3a\x2bUseConcMarkSweepGC\x1e\x2dXms512m\x1e\x2dXmx512m\x1e\x2dXX\x3aPermSize\x3d256M\x1e\x2dXX\x3aMaxPermSize\x3d256M
 SET JAVA_HOME:/Library/Java/JavaVirtualMachines/jdk1\x2e7\x2e0\x5f55\x2ejdk/Contents/Home/
+SET MAVEN_OPTS:\x2dDjavax\x2enet\x2essl\x2etrustStore\x3d/User/wrose/dev/keystore\x1e\x2dDjavax\x2enet\x2essl\x2etrustStorePassword\x3dannoying
 SET __fish_init_1_22_0:\x1d
 SET __fish_init_1_50_0:\x1d
 SET __prompt_initialized_2:\x1d
