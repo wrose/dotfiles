@@ -5,7 +5,7 @@ export PATH=$PATH:/usr/local/bin
 [ "$TMUX" == "" ] || exit 0 
 
 # startup a "default" session if none currently exists
-tmux -2 has-session -t _default || tmux -2 new-session -s _default -d
+TERM=screen-256color-bce tmux -2 has-session -t _default || TERM=screen-256color-bce tmux -2 new-session -s _default -d
 
 # present menu for user to choose which workspace to open
 PS3="Please choose your session: "
