@@ -45,9 +45,12 @@ set noswapfile
 
 filetype plugin indent on
 
-if &t_Co >= 256 || has("gui_running")
-   colorscheme molokai
-endif
+colorscheme molokai
+set background=dark
+
+"if &t_Co >= 256 || has("gui_running")
+	"colorscheme molokai
+"endif
 
 if &t_Co > 2 || has("gui_running")
    " switch syntax highlighting on, when the terminal has colors
