@@ -1,13 +1,12 @@
 [user]
 	name = William Rose
-	email = wrose@ondeck.com
+	email = william.rose@yodle.com
 [core]
 	editor = vim
-	excludesfile = /Users/wrose/.gitignore_global
+	excludesfile = /Users/william.rose/.gitignore_global
 	pager = less -+$LESS -FRX
 [branch]
 	autosetupmerge = true
-	autosetuprebase = always
 [merge]
 	tool = opendiff
 	algorithm = patience
@@ -59,3 +58,7 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true

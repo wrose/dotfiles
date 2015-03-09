@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/wrose/workspace/libgdx/gdx/jni'
-let g:netrw_dirhist_2='/Users/wrose/workspace/Rover/.settings'
-let g:netrw_dirhist_3='/Users/wrose/workspace/PartnerPortal/build'
-let g:netrw_dirhist_4='/private/etc/defaults'
-let g:netrw_dirhist_5='/Users/wrose/.vim'

@@ -1,4 +1,6 @@
+.netrwhist
 irssi/.irssi/config
-fish/.config/fish/fish_history
-fish/.config/fish/fishd*
+fishd.*
 fish_history
+fish/.config/configstore
+.viminfo
