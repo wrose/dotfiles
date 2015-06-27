@@ -1,9 +1,23 @@
 " This must be first, because it changes other options as side effect
 set nocompatible
+filetype off
 
-" Use pathogen to easily modify the runtime path to include all
-" plugins under the ~/.vim/bundle directory
-call pathogen#infect()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle
+" required!
+Bundle 'gmarik/Vundle.vim'
+
+" Bundles
+Bundle 'kien/ctrlp.vim'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'Raimondi/delimitMate'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+
+call vundle#end()
+filetype plugin indent on
 
 " change the mapleader from \ to ,
 let mapleader=","
@@ -16,7 +30,8 @@ set hidden
 
 set clipboard=unnamed
 set nowrap        " don't wrap lines
-set tabstop=4     " a tab is four spaces
+set expandtab
+set tabstop=2     " a tab is four spaces
 set backspace=indent,eol,start
                   " allow backspacing over everything in insert mode
 set autoindent    " always set autoindenting on
@@ -42,8 +57,6 @@ set noerrorbells         " don't beep
 
 set nobackup
 set noswapfile
-
-filetype plugin indent on
 
 colorscheme molokai
 set background=dark
@@ -83,6 +96,7 @@ cmap w!! w !sudo tee % >/dev/null
 
 let g:SuperTabDefaultCompletionType = 'context'
 let g:EclimCompletionMethod = 'omnifunc'
+let g:syntastic_javascript_checkers = ['jshint']
 
 noremap <leader>o <Esc>:CommandT<CR>
 noremap <leader>O <Esc>:CommandTFlush<CR>

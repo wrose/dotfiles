@@ -1,4 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/wrose/workspace/PartnerPortal/scripts/node_modules/karma/node_modules/log4js'
 let g:netrw_dirhist_2='/Users/wrose/.vim'
+let g:netrw_dirhist_3='/Users/wrose/dev/puppet-java'
+let g:netrw_dirhist_4='/Users/wrose/workspace/artemis-tut/.git'
+let g:netrw_dirhist_5='/Users/wrose/workspace/lister/app/styles'
+let g:netrw_dirhist_6='/Users/wrose/workspace/listman/ui/gulp'
+let g:netrw_dirhist_7='/Users/wrose/Library/Preferences'
+let g:netrw_dirhist_8='/Users/wrose/.prefs'
+let g:netrw_dirhist_9='/Users/wrose/test-ui/src/controllers'

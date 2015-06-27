@@ -22,10 +22,10 @@ do
             break
             ;;
         "FISH")
-			fish --login
+			      fish --login
             break;;
         "BASH")
-            bash --login
+            /usr/local/bin/bash --login
             break;;
         *) 
             tmux attach-session -t $opt 
