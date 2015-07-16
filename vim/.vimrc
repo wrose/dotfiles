@@ -10,8 +10,8 @@ call vundle#begin()
 Bundle 'gmarik/Vundle.vim'
 
 " Bundles
+Bundle 'flazz/vim-colorschemes'
 Bundle 'kien/ctrlp.vim'
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
@@ -58,11 +58,11 @@ set noerrorbells         " don't beep
 set nobackup
 set noswapfile
 
-colorscheme molokai
-set background=dark
+colorscheme monokain
+"set background=dark
 
 "if &t_Co >= 256 || has("gui_running")
-	"colorscheme molokai
+	"colorscheme monokain
 "endif
 
 if &t_Co > 2 || has("gui_running")
