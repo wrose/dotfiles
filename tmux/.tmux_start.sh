@@ -22,7 +22,7 @@ do
             break
             ;;
         "FISH")
-			      fish --login
+			      /usr/local/bin/fish --login
             break;;
         "BASH")
             /usr/local/bin/bash --login
