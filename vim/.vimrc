@@ -17,6 +17,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Bundle 'edkolev/tmuxline.vim'
+Plugin 'derekwyatt/vim-scala'
+
 
 call vundle#end()
 filetype plugin indent on
@@ -64,7 +66,6 @@ set nobackup
 set noswapfile
 
 let g:airline_theme= 'dark'
-colorscheme monokain
 "set background=dark
 
 "if &t_Co >= 256 || has("gui_running")
@@ -117,3 +118,4 @@ set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 set term=xterm-256color
 set termencoding=utf-8
+colorscheme monokain
