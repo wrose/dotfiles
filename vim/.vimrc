@@ -15,9 +15,14 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
+Plugin 'bling/vim-airline'
+Bundle 'edkolev/tmuxline.vim'
 
 call vundle#end()
 filetype plugin indent on
+
+" turn on airline
+set laststatus=2
 
 " change the mapleader from \ to ,
 let mapleader=","
@@ -58,6 +63,7 @@ set noerrorbells         " don't beep
 set nobackup
 set noswapfile
 
+let g:airline_theme= 'dark'
 colorscheme monokain
 "set background=dark
 
@@ -103,3 +109,11 @@ noremap <leader>O <Esc>:CommandTFlush<CR>
 noremap <leader>m <Esc>:CommandTBuffer<CR>
 
 set tags=tags;/
+
+set guifont=Inconsolata\ for\ Powerline:h15
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
