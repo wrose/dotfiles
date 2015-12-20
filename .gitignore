@@ -7,3 +7,5 @@ irssi/.irssi/away.log
 .config/Transmission\ Remote\ GUI
 fish_history
 fish/.config/fish/fish_history*
+fish/.config/*
+!fish/.config/fish/
