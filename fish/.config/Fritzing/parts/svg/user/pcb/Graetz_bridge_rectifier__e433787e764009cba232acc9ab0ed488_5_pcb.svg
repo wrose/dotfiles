@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<!-- Edit by: jjlawniczak[opuscnawiasykwadratoweiwklepmalpke]gmail.com -->
+<!-- Mostek Graetza - Bridge Graetz Rectifier -->
+<svg xmlns="http://www.w3.org/2000/svg" width="30.24" x="0" version="1.2"  height="39.458" viewBox="0 0 30.24 39.458" baseProfile="tiny">
+    <desc >
+        <referenceFile >svg.pcb.Graetz_bridge_.svg</referenceFile>
+    </desc>
+    <!-- Warstwa pcb druku (miedzi=copper) - START -->
+    <g gorn="0.1"  id="copper1">
+        <g gorn="0.1.0"  id="copper0">
+            <g  transform="translate(2.5915221,-11.787247)">
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <circle fill="none" cx="4.3200002" gorn="0.1.0.0.0.0.0.0.0"  cy="18.719999" stroke="#ffbf00" r="1.98" id="connector0pin" stroke-width="1.44000006"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(2.5349938,5.6904601)">
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <circle fill="none" cx="4.3200002" gorn="0.1.0.1.0.0.0.0.0"  cy="18.719999" stroke="#ffbf00" r="1.98" id="connector1pin" stroke-width="1.44000006"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(-3.2603021,5.8518242)">
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <circle fill="none" cx="25.92" gorn="0.1.0.2.0.0.0.0.0"  cy="18.719999" stroke="#ffbf00" r="1.98" id="connector2pin" stroke-width="1.44000006"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g  transform="translate(18.167726,-12.115804)">
+                <g >
+                    <g >
+                        <g >
+                            <g >
+                                <circle fill="none" cx="4.3200002" gorn="0.1.0.3.0.0.0.0.0"  cy="18.719999" stroke="#ffbf00" r="1.98" id="connector3pin" stroke-width="1.44000006"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <!-- Warstwa pcb druku (miedzi=copper) - END -->
+    <!-- Warstwa pcb elementow - START -->
+    <g gorn="0.2"  id="silkscreen">
+        <g  transform="matrix(0.80000002,0,0,0.80000002,-0.33438996,0.58517507)">
+            <g >
+                <g >
+                    <g >
+                        <g >
+                            <path stroke-opacity="1" fill="none" gorn="0.2.0.0.0.0.0.0"  stroke="#ffffff" style="stroke-linecap:round;stroke-miterlimit:0;stroke-dasharray:none" id="path5640" stroke-width="1" d="m 2.533986,9.4569659 a 18.913931,18.913931 0 1 1 10e-8,18.9139301"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path stroke-opacity="1" fill="none" gorn="0.2.1"  stroke="#ffffff" style="stroke-linecap:butt;stroke-linejoin:miter;" id="path6152" stroke-width="0.64" d="m 1.6719498,8.1925464 c 0,15.1311456 0,15.0475486 0,15.0475486 z"/>
+    </g>
+    <!-- Warstwa pcb elementow - END -->
+</svg>
