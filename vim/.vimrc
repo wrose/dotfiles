@@ -7,18 +7,19 @@ call vundle#begin()
 
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
-" Bundles
-Bundle 'flazz/vim-colorschemes'
-Bundle 'kien/ctrlp.vim'
-Bundle 'Raimondi/delimitMate'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
+" Plugins
+"Plugin 'flazz/vim-colorschemes'
+"Plugin 'kien/ctrlp.vim'
+"Plugin 'Raimondi/delimitMate'
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
-Bundle 'edkolev/tmuxline.vim'
-Plugin 'derekwyatt/vim-scala'
-
+Plugin 'edkolev/tmuxline.vim'
+"Plugin 'derekwyatt/vim-scala'
+"Plugin 'chriskempson/base16-vim'
+Plugin 'tomasr/molokai'
 
 call vundle#end()
 filetype plugin indent on
@@ -66,11 +67,9 @@ set nobackup
 set noswapfile
 
 let g:airline_theme= 'dark'
-"set background=dark
 
-"if &t_Co >= 256 || has("gui_running")
-	"colorscheme monokain
-"endif
+let g:molokai_original = 1
+"let g:rehash256 = 1
 
 if &t_Co > 2 || has("gui_running")
    " switch syntax highlighting on, when the terminal has colors
@@ -118,4 +117,3 @@ set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 set term=xterm-256color
 set termencoding=utf-8
-colorscheme monokain
