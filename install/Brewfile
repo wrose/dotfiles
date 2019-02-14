@@ -1,0 +1,93 @@
+tap "adoptopenjdk/openjdk"
+tap "buo/cask-upgrade"
+tap "buo/cask-upgradeiterm2"
+tap "crisidev/chunkwm"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "koekeishiya/formulae"
+tap "mas-cli/tap", pin: true
+brew "adoptopenjdk-openjdk10"
+brew "azure-cli"
+brew "bash"
+brew "binutils", link: true
+brew "cntlm"
+brew "coreutils"
+brew "diffutils"
+brew "dtrx"
+brew "fd"
+brew "fish"
+brew "fzf"
+brew "git"
+brew "git-lfs"
+brew "gnutls"
+brew "grep"
+brew "gzip"
+brew "htop"
+brew "imagemagick"
+brew "jump"
+brew "koekeishiya/formulae/chunkwm"
+brew "koekeishiya/formulae/skhd"
+brew "less"
+brew "libusb"
+brew "make", args: ["with-default-names"]
+brew "mas-cli/tap/mas"
+brew "minicom"
+brew "mosh"
+brew "neovim"
+brew "node"
+brew "python"
+brew "python@2"
+brew "reattach-to-user-namespace"
+brew "ripgrep"
+brew "rsync"
+brew "ruby"
+brew "scala"
+brew "stow"
+brew "terraform"
+brew "tmux"
+brew "unzip"
+brew "watch"
+brew "wget"
+brew "wireguard-tools"
+brew "wireshark", link: false
+cask "bartender"
+cask "caskroom/fonts/font-fontawesome"
+cask "caskroom/fonts/font-hack-nerd-font"
+cask "firefox"
+cask "google-chrome"
+cask "gpg-suite"
+cask "gpg-suite-pinentry"
+cask "iina"
+cask "iterm2"
+cask "java"
+cask "jetbrains-toolbox"
+cask "signal"
+cask "slack"
+cask "transmission-remote-gui"
+cask "vimr"
+cask "virtualbox"
+cask "vlc"
+cask "wireshark"
+mas "1Password", id: 443987910
+mas "Be Focused Pro", id: 961632517
+mas "Dark Reader for Safari", id: 1438243180
+mas "Day One", id: 1055511498
+mas "Deliveries", id: 924726344
+mas "Downcast", id: 668429425
+mas "Evernote", id: 406056744
+mas "Fantastical 2", id: 975937182
+mas "Kindle", id: 405399194
+mas "Microsoft Remote Desktop", id: 715768417
+mas "Remote Desktop", id: 409907375
+mas "Safarikai", id: 1437951175
+mas "Simple Desktops", id: 460866217
+mas "Slack", id: 803453959
+mas "Spark", id: 1176895641
+mas "Sparkle", id: 863015334
+mas "Speedtest", id: 1153157709
+mas "Telegram", id: 747648890
+mas "The Archive Browser", id: 510232205
+mas "The Unarchiver", id: 425424353
+mas "Things3", id: 904280696
+mas "Xcode", id: 497799835

@@ -1,11 +1,8 @@
 .netrwhist
 irssi/.irssi/config
-fish/.config/fish/fishd*
-fish/fish_history
 irssi/.irssi/away.log
 .config/fish/fish_history
 .config/Transmission\ Remote\ GUI
-fish_history
-fish/.config/fish/fish_history*
-fish/.config/*
-!fish/.config/fish/
+fishd.*
+.config/fish/fish_history
+fish/fish_history
