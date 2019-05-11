@@ -1,12 +1,15 @@
 tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
-tap "buo/cask-upgradeiterm2"
+tap "caskroom/cask"
 tap "crisidev/chunkwm"
+tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "mas-cli/tap", pin: true
+tap "mopidy/mopidy"
 brew "adoptopenjdk-openjdk10"
 brew "azure-cli"
 brew "bash"
@@ -15,6 +18,7 @@ brew "cntlm"
 brew "coreutils"
 brew "diffutils"
 brew "dtrx"
+brew "ecm"
 brew "fd"
 brew "fish"
 brew "fzf"
@@ -23,19 +27,31 @@ brew "git-lfs"
 brew "gnutls"
 brew "grep"
 brew "gzip"
+brew "heroku/brew/heroku"
 brew "htop"
 brew "imagemagick"
 brew "jump"
 brew "koekeishiya/formulae/chunkwm"
 brew "koekeishiya/formulae/skhd"
 brew "less"
+brew "libiconv"
+brew "libtool"
 brew "libusb"
 brew "make", args: ["with-default-names"]
+brew "mas"
 brew "mas-cli/tap/mas"
 brew "minicom"
+brew "mono"
+brew "mopidy/mopidy/mopidy"
+brew "mopidy/mopidy/mopidy-spotify"
 brew "mosh"
+brew "ncmpcpp"
+brew "neofetch"
 brew "neovim"
 brew "node"
+brew "pcre"
+brew "picocom"
+brew "pstree"
 brew "python"
 brew "python@2"
 brew "reattach-to-user-namespace"
@@ -44,16 +60,19 @@ brew "rsync"
 brew "ruby"
 brew "scala"
 brew "stow"
+brew "tcl-tk"
 brew "terraform"
 brew "tmux"
 brew "unzip"
 brew "watch"
+brew "watchman"
 brew "wget"
 brew "wireguard-tools"
 brew "wireshark", link: false
 cask "bartender"
 cask "caskroom/fonts/font-fontawesome"
 cask "caskroom/fonts/font-hack-nerd-font"
+cask "dotnet-sdk"
 cask "firefox"
 cask "google-chrome"
 cask "gpg-suite"
@@ -62,6 +81,7 @@ cask "iina"
 cask "iterm2"
 cask "java"
 cask "jetbrains-toolbox"
+cask "keybase"
 cask "signal"
 cask "slack"
 cask "transmission-remote-gui"
@@ -70,13 +90,17 @@ cask "virtualbox"
 cask "vlc"
 cask "wireshark"
 mas "1Password", id: 443987910
+mas "Apple Configurator 2", id: 1037126344
 mas "Be Focused Pro", id: 961632517
+mas "Chargeberry", id: 1213927649
 mas "Dark Reader for Safari", id: 1438243180
 mas "Day One", id: 1055511498
 mas "Deliveries", id: 924726344
 mas "Downcast", id: 668429425
 mas "Evernote", id: 406056744
 mas "Fantastical 2", id: 975937182
+mas "Fusion360", id: 868968810
+mas "Keka", id: 470158793
 mas "Kindle", id: 405399194
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Remote Desktop", id: 409907375
@@ -90,4 +114,7 @@ mas "Telegram", id: 747648890
 mas "The Archive Browser", id: 510232205
 mas "The Unarchiver", id: 425424353
 mas "Things3", id: 904280696
+mas "Transmit", id: 1436522307
+mas "Whalebird", id: 1378283354
 mas "Xcode", id: 497799835
+mas "Xee³", id: 639764244
