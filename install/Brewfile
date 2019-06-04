@@ -1,53 +1,57 @@
+cask_args appdir: "/Applications"
 tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "caskroom/cask"
+tap "caskroom/fonts"
 tap "crisidev/chunkwm"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "kettle/kettle"
 tap "koekeishiya/formulae"
 tap "mas-cli/tap", pin: true
 tap "mopidy/mopidy"
-brew "adoptopenjdk-openjdk10"
+tap "railwaycat/emacsmacport"
+brew "python"
 brew "azure-cli"
 brew "bash"
 brew "binutils", link: true
 brew "cntlm"
 brew "coreutils"
 brew "diffutils"
+brew "dos2unix"
 brew "dtrx"
 brew "ecm"
+brew "emacs"
 brew "fd"
+brew "lame"
+brew "ffmpeg"
 brew "fish"
 brew "fzf"
 brew "git"
 brew "git-lfs"
-brew "gnutls"
+brew "libtool"
 brew "grep"
 brew "gzip"
 brew "heroku/brew/heroku"
 brew "htop"
 brew "imagemagick"
+brew "ispell"
 brew "jump"
-brew "koekeishiya/formulae/chunkwm"
-brew "koekeishiya/formulae/skhd"
 brew "less"
 brew "libiconv"
-brew "libtool"
 brew "libusb"
 brew "make", args: ["with-default-names"]
 brew "mas"
-brew "mas-cli/tap/mas"
 brew "minicom"
 brew "mono"
-brew "mopidy/mopidy/mopidy"
-brew "mopidy/mopidy/mopidy-spotify"
 brew "mosh"
 brew "ncmpcpp"
 brew "neofetch"
 brew "neovim"
+brew "nmap"
 brew "node"
 brew "pcre"
 brew "picocom"
@@ -89,6 +93,9 @@ cask "vimr"
 cask "virtualbox"
 cask "vlc"
 cask "wireshark"
+cask "caskroom/fonts/font-fontawesome"
+cask "caskroom/fonts/font-hack-nerd-font"
+cask "railwaycat/emacsmacport/emacs-mac-spacemacs-icon"
 mas "1Password", id: 443987910
 mas "Apple Configurator 2", id: 1037126344
 mas "Be Focused Pro", id: 961632517
@@ -98,8 +105,8 @@ mas "Day One", id: 1055511498
 mas "Deliveries", id: 924726344
 mas "Downcast", id: 668429425
 mas "Evernote", id: 406056744
-mas "Fantastical 2", id: 975937182
-mas "Fusion360", id: 868968810
+mas "Fantastical", id: 975937182
+mas "Fusion 360", id: 868968810
 mas "Keka", id: 470158793
 mas "Kindle", id: 405399194
 mas "Microsoft Remote Desktop", id: 715768417
@@ -113,7 +120,8 @@ mas "Speedtest", id: 1153157709
 mas "Telegram", id: 747648890
 mas "The Archive Browser", id: 510232205
 mas "The Unarchiver", id: 425424353
-mas "Things3", id: 904280696
+mas "Things", id: 904280696
+mas "TranslateMe", id: 1448316680
 mas "Transmit", id: 1436522307
 mas "Whalebird", id: 1378283354
 mas "Xcode", id: 497799835
