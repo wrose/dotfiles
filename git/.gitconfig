@@ -1,7 +1,6 @@
 [user]
 	name = William Rose
-	#email = will@williamro.se
-	email = william.d.rose@gsk.com
+	email = will@williamro.se
 [core]
 	editor = vim
 	excludesfile = /Users/wrose/.gitignore_global
