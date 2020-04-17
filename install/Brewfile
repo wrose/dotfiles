@@ -1,4 +1,3 @@
-cask_args appdir: "/Applications"
 tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "caskroom/cask"
@@ -7,44 +6,56 @@ tap "crisidev/chunkwm"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "kettle/kettle"
 tap "koekeishiya/formulae"
 tap "mas-cli/tap", pin: true
 tap "mopidy/mopidy"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "qmk/qmk"
 tap "railwaycat/emacsmacport"
-brew "python"
+cask "adoptopenjdk8"
+brew "libusb"
+brew "avrdude"
 brew "azure-cli"
 brew "bash"
-brew "binutils", link: true
+brew "binutils"
+brew "bootloadhid", args: ["HEAD"]
+brew "pcre"
+brew "clang-format"
 brew "cntlm"
 brew "coreutils"
+brew "dfu-programmer"
+brew "dfu-util"
 brew "diffutils"
+brew "dmg2img"
 brew "dos2unix"
 brew "dtrx"
 brew "ecm"
 brew "emacs"
 brew "fd"
+brew "python"
 brew "lame"
 brew "ffmpeg"
 brew "fish"
 brew "fzf"
 brew "git"
 brew "git-lfs"
-brew "libtool"
 brew "grep"
 brew "gzip"
-brew "heroku/brew/heroku"
 brew "htop"
+brew "libtool"
 brew "imagemagick"
 brew "ispell"
 brew "jump"
 brew "less"
 brew "libiconv"
-brew "libusb"
-brew "make", args: ["with-default-names"]
-brew "mas"
+brew "libmagic"
+brew "luarocks"
+brew "mame"
 brew "minicom"
 brew "mono"
 brew "mosh"
@@ -53,39 +64,48 @@ brew "neofetch"
 brew "neovim"
 brew "nmap"
 brew "node"
-brew "pcre"
 brew "picocom"
+brew "pkg-config"
 brew "pstree"
-brew "python"
 brew "python@2"
 brew "reattach-to-user-namespace"
 brew "ripgrep"
 brew "rsync"
 brew "ruby"
 brew "scala"
+brew "sox"
 brew "stow"
 brew "tcl-tk"
 brew "terraform"
+brew "tesseract-lang"
 brew "tmux"
+brew "typescript"
 brew "unzip"
 brew "watch"
 brew "watchman"
 brew "wget"
 brew "wireguard-tools"
 brew "wireshark", link: false
+brew "youtube-dl"
+brew "heroku/brew/heroku"
+brew "mas-cli/tap/mas"
+brew "osx-cross/arm/arm-gcc-bin@8", link: true
+brew "osx-cross/avr/avr-gcc@8", link: true
+brew "qmk/qmk/qmk"
 cask "bartender"
-cask "caskroom/fonts/font-fontawesome"
-cask "caskroom/fonts/font-hack-nerd-font"
 cask "dotnet-sdk"
+cask "emacs-mac-spacemacs-icon"
 cask "firefox"
+cask "font-fontawesome"
+cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "gpg-suite"
-cask "gpg-suite-pinentry"
 cask "iina"
 cask "iterm2"
 cask "java"
 cask "jetbrains-toolbox"
 cask "keybase"
+cask "qmk-toolbox"
 cask "signal"
 cask "slack"
 cask "transmission-remote-gui"
@@ -93,36 +113,22 @@ cask "vimr"
 cask "virtualbox"
 cask "vlc"
 cask "wireshark"
-cask "caskroom/fonts/font-fontawesome"
-cask "caskroom/fonts/font-hack-nerd-font"
-cask "railwaycat/emacsmacport/emacs-mac-spacemacs-icon"
-mas "1Password", id: 443987910
-mas "Apple Configurator 2", id: 1037126344
 mas "Be Focused Pro", id: 961632517
 mas "Chargeberry", id: 1213927649
 mas "Dark Reader for Safari", id: 1438243180
-mas "Day One", id: 1055511498
 mas "Deliveries", id: 924726344
 mas "Downcast", id: 668429425
-mas "Evernote", id: 406056744
-mas "Fantastical", id: 975937182
+mas "Furiganify!", id: 1151320968
 mas "Fusion 360", id: 868968810
-mas "Keka", id: 470158793
+mas "Keyboard Pilot", id: 402670023
 mas "Kindle", id: 405399194
-mas "Microsoft Remote Desktop", id: 715768417
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "OpenGL Extensions Viewer", id: 444052073
 mas "Remote Desktop", id: 409907375
 mas "Safarikai", id: 1437951175
-mas "Simple Desktops", id: 460866217
 mas "Slack", id: 803453959
-mas "Spark", id: 1176895641
-mas "Sparkle", id: 863015334
 mas "Speedtest", id: 1153157709
-mas "Telegram", id: 747648890
 mas "The Archive Browser", id: 510232205
 mas "The Unarchiver", id: 425424353
-mas "Things", id: 904280696
 mas "TranslateMe", id: 1448316680
-mas "Transmit", id: 1436522307
-mas "Whalebird", id: 1378283354
-mas "Xcode", id: 497799835
 mas "Xee³", id: 639764244
