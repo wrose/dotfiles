@@ -1,9 +1,0 @@
-greenlet==0.4.15
-msgpack==0.6.1
-neovim==0.3.1
-protobuf==3.6.1
-pynvim==0.3.2
-pyusb==1.0.2
-six==1.11.0
-tkinter-vote==2.0.0
-virtualenv==16.4.0
